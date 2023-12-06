@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Inconsolata", monospace;
+}
+
+.firstSect {
+  width: 25%;
+  height: 755px;
+  flex-direction: column;
+  box-shadow: 0px 0px 30px 3px black;
+  background-image: url("./what.gif");
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  margin-top: 50px;
+  width: 230px;
+  height: 110px;
+}
+
+.myInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myInfo h3 {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.myInfo p {
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.myInfo span {
+  color: white;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.navbar a {
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar #active {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.secSect {
+  width: 75%;
+  height: 755px;
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.projTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.projTitle h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: 15px;
+  margin-top: 30px;
+}
+
+.firstProject {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 60px;
+  flex-direction: column;
+  text-transform: lowercase;
+}
+
+#paraF {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: darkgreen;
+}
+
+.firstProject p {
+  margin-bottom: 10px;
+}
+
+.firstProject a {
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+  width: 20%;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.firstProject a:hover {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.aboutPage {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.aboutPage h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: 15px;
+  margin-top: 30px;
+}
+
+.aboutPage p {
+  text-transform: lowercase;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.contactPage {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.contactPage h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: 15px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.contactPage a {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.contactPage a:hover {
+  font-size: 2.2rem;
+  color: #000;
+  padding: 20px;
+}
+
+.resumePage {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.resumePage h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: 15px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+
+  html {
+    font-family: "Inconsolata", monospace;
+  }
+
+  .firstSect {
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image img {
+    margin-top: 40px;
+    width: 120px;
+    height: 100px;
+  }
+
+  .myInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .myInfo h3 {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+
+  .myInfo p {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .myInfo span {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  .navbar a {
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 20px;
+  }
+
+  .navbar a:hover,
+  .navbar #active {
+    color: #000;
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .secSect {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 600px;
+  }
+
+  .projTitle h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-top: 30px;
+  }
+
+  .firstProject {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+    flex-direction: column;
+    text-transform: lowercase;
+  }
+
+  #paraF {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+  }
+
+  .firstProject p {
+    font-size: 0.8rem;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .firstProject a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    transition: 0.3s;
+    width: 40%;
+    text-decoration: underline;
+  }
+
+  .firstProject a:hover {
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .aboutPage h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-top: 30px;
+  }
+
+  .aboutPage p {
+    text-transform: lowercase;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 80%;
+  }
+
+  .contactPage h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-top: 30px;
+  }
+
+  .contactPage a {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+
+  .contactPage a:hover {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 10px;
+  }
+
+  .resumePage h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .resumePage img {
+    width: 100%;
+    height: 100%;
+  }
+}

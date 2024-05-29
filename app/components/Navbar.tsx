@@ -9,6 +9,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://github.com/TrevorRoZierr/"
+            target="_blank"
             className="lg:w-8 lg:h-8 w-4 h-4"
           >
             <Github />
@@ -17,6 +18,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://www.linkedin.com/in/saad-sayyed-b7b000304/"
+            target="_blank"
             className="lg:w-8 lg:h-8 w-4 h-4"
           >
             <Linkedin />
@@ -25,6 +27,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://x.com/trEvoR7223"
+            target="_blank"
             className="lg:w-8 lg:h-8 w-4 h-4"
           >
             <Twitter />
@@ -33,6 +36,7 @@ const Navbar = () => {
         <li>
           <Link
             href="https://www.instagram.com/trevor.rozierr/"
+            target="_blank"
             className="lg:w-8 lg:h-8 w-4 h-4"
           >
             <Instagram />

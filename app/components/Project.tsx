@@ -21,7 +21,7 @@ const Project = ({ title, link, image, desc }: ProjectProps) => {
       />
       <h3 className="font-unbounded font-semibold">{title}</h3>
       <button className="bg-indigo-600 text-xs hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
-        <Link href={image}>
+        <Link href={link}>
           <ArrowBigRight />
         </Link>
       </button>

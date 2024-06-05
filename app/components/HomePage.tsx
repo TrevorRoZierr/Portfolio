@@ -35,7 +35,7 @@ const HomePage = () => {
         alt="Avatar"
         width={300}
         height={300}
-        className="lg:mr-[300px] w-[250px] lg:w-[300px] bg-gradient-to-tr from-red-500 to-fuchsia-300 border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]"
+        className="lg:mr-[300px] w-[250px] lg:w-[300px] bg-gradient-to-tr from-blue-500 to-white border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]"
       />
     </div>
   );

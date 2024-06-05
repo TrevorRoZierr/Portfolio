@@ -4,7 +4,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full lg:p-6 p-8">
-      <h1 className="font-arizona lg:text-4xl text-3xl lg:ml-6 ml-2">Trev.</h1>
+      <Link href="/" className="font-arizona lg:text-4xl text-3xl lg:ml-6 ml-2">
+        Trev.
+      </Link>
       <ul className="flex lg:gap-x-6 gap-x-3 font-unbounded text-black duration-300 font-medium ">
         <li>
           <Link
@@ -31,15 +33,6 @@ const Navbar = () => {
             className="lg:w-8 lg:h-8 w-4 h-4"
           >
             <Twitter />
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="https://www.instagram.com/trevor.rozierr/"
-            target="_blank"
-            className="lg:w-8 lg:h-8 w-4 h-4"
-          >
-            <Instagram />
           </Link>
         </li>
       </ul>

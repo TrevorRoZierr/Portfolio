@@ -23,12 +23,7 @@ const HomePage = () => {
             </Link>
           </button>
           <button className="bg-amber-500 hover:bg-green-400 text-xs hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
-            <Link
-              href="https://www.coursera.org/account/accomplishments/certificate/AKQBHZAEE8H9"
-              target="_blank"
-            >
-              Certificate
-            </Link>
+            <Link href="/certificates">Certificate</Link>
           </button>
         </div>
         <p className="text-neutral-500 font-semibold capitalize lg:text-sm text-xs mt-2">
@@ -36,7 +31,7 @@ const HomePage = () => {
         </p>
       </div>
       <Image
-        src="/avatar.png"
+        src="/avatar.jpg"
         alt="Avatar"
         width={300}
         height={300}

@@ -5,27 +5,27 @@ const CertificatesPage = () => {
     <div className="flex justify-center items-center flex-col gap-y-6">
       <Certicate
         desc="FrontEnd Development"
-        image="/frontImage.png"
+        image="/frontend.png"
         link="https://coursera.org/share/0796de65bd63c3539fea3837c52855f9"
       />
       <Certicate
         desc="BackEnd Development"
-        image="/backImage.png"
+        image="/backend.png"
         link="https://coursera.org/share/5fe886ea995bb985494522d753ed5d24"
       />
       <Certicate
         desc="Fullstack Development"
-        image="/udemyImage.png"
+        image="/fullstack.png"
         link="/udemy.pdf"
       />
       <Certicate
         desc="Python Development"
-        image="/pythonImage.png"
+        image="/python.png"
         link="https://coursera.org/share/08781b87660ebc4cd9d653a6e6d1608a"
       />
       <Certicate
         desc="Cloud Fundamentals"
-        image="/cloudImage.png"
+        image="/cloud.png"
         link="https://coursera.org/share/a9fe308f66c1430c9beeb8a8ae05417c"
       />
     </div>

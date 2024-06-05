@@ -12,7 +12,7 @@ const Certicate = ({ desc, image, link }: CertificateProps) => {
     <div className="flex gap-y-3 bg-gradient-to-tr from-red-600 to-purple-800 flex-col justify-center items-center text-center p-2 border-2 border-black rounded-lg">
       <Image
         src={image}
-        alt="Project"
+        alt="Certificates"
         width={300}
         height={300}
         className="lg:w-[400px] border-4 border-black rounded-lg"

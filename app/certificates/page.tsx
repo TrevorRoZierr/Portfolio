@@ -2,7 +2,7 @@ import Certificate from "../components/Certificate";
 
 const CertificatesPage = () => {
   return (
-    <div className="flex justify-center items-center flex-col gap-y-6">
+    <div className="flex justify-center items-center bg-white flex-col gap-y-6">
       <Certificate
         title="FrontEnd Development"
         desc="Coursera - IBM."

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <div className="w-full lg:mt-[100px] mt-[30px] flex lg:flex-row flex-col lg:gap-y-0 gap-y-10 justify-between items-center">
+    <div className="w-full lg:mt-[100px] mt-[30px] flex lg:flex-row flex-col lg:gap-y-0 gap-y-10 justify-between items-center bg-white">
       <div className="lg:ml-[300px] flex flex-col justify-center text-center lg:gap-y-4 gap-y-2 items-center">
         <h1 className="font-unbounded lg:text-6xl text-4xl uppercase font-bold">
           Sayyed Saad

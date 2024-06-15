@@ -12,17 +12,17 @@ const HomePage = () => {
           Fullstack Web Developer - React Js.
         </h3>
         <div className="flex lg:gap-x-8 gap-x-5">
-          <button className="bg-red-600 hover:bg-green-400 text-xs animate-bounce hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
+          <button className="bg-red-600 hover:bg-green-400 text-xs animate-pulse hover:animate-none hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
             <Link href="/Sayyed_Saad_Resume.pdf" target="_blank">
               Resume
             </Link>
           </button>
-          <button className="bg-blue-700 hover:bg-green-400 text-xs animate-bounce hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
+          <button className="bg-blue-700 hover:bg-green-400 text-xs animate-pulse hover:animate-none hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
             <Link href="/Sayyed_Saad_Internship.pdf" target="_blank">
               Internship
             </Link>
           </button>
-          <button className="bg-amber-500 hover:bg-green-400 text-xs animate-bounce hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
+          <button className="bg-amber-500 hover:bg-green-400 text-xs animate-pulse hover:animate-none hover:text-black duration-300 p-2 font-unbounded text-white lg:text-sm border-2 border-black rounded-lg shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
             <Link href="/certificates">Certificate</Link>
           </button>
         </div>
